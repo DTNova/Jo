@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bibliotheque", "Bibliotheque\Bibliotheque.csproj", "{2F95B418-FC61-4D4B-B29B-D651CD36B8DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnitaire", "TestUnitaire\TestUnitaire.csproj", "{DE5558A7-01C1-48C8-BB32-7099B4232BA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F95B418-FC61-4D4B-B29B-D651CD36B8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F95B418-FC61-4D4B-B29B-D651CD36B8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F95B418-FC61-4D4B-B29B-D651CD36B8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F95B418-FC61-4D4B-B29B-D651CD36B8DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE5558A7-01C1-48C8-BB32-7099B4232BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE5558A7-01C1-48C8-BB32-7099B4232BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE5558A7-01C1-48C8-BB32-7099B4232BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE5558A7-01C1-48C8-BB32-7099B4232BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
