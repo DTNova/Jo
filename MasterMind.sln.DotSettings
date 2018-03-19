@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=94D50081A2BCC441AECBD5F9FF985F29/AbsolutePath/@EntryValue">C:\OneDrive\OneDrive - IUT Amiens\_cours03\m2104\projets\MasterMind\ReSharper_team.DotSettings</s:String>
+	<s:String x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=94D50081A2BCC441AECBD5F9FF985F29/RelativePath/@EntryValue">..\ReSharper_team.DotSettings</s:String>
+	<s:Boolean x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=94D50081A2BCC441AECBD5F9FF985F29/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/InjectedLayers/InjectedLayerCustomization/=File94D50081A2BCC441AECBD5F9FF985F29/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/InjectedLayers/InjectedLayerCustomization/=File94D50081A2BCC441AECBD5F9FF985F29/IsOn/@EntryValue">False</s:Boolean>
+	<s:Double x:Key="/Default/Environment/InjectedLayers/InjectedLayerCustomization/=File94D50081A2BCC441AECBD5F9FF985F29/RelativePriority/@EntryValue">1</s:Double></wpf:ResourceDictionary>
