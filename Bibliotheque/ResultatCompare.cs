@@ -7,8 +7,17 @@
     // TODO : renommer cette classe "EvaluationProposition"
     public class ResultatCompare
     {
-        public int NbFicheBlanche { get; set; }
-        public int NbFicheNoir { get; set; }
+        public int NbFicheBlanche
+        {
+            get;
+            set;
+            
+        }
+        public int NbFicheNoir
+        {
+            get;
+            set;
+        }
 
         public ResultatCompare()
         {

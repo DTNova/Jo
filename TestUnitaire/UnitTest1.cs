@@ -12,7 +12,7 @@ namespace TestUnitaire
         [TestMethod]
         public void TestMethod1()
         {
-            JeuxLettre jeux = new JeuxLettre();
+            JeuxLettre jeux = new JeuxLettre(4,5);
 
             // 0:V
             // 1:B
@@ -35,14 +35,14 @@ namespace TestUnitaire
             Debug.WriteLine(code.Description());
             Debug.WriteLine(proposition.Description());
 
-            code.Comparaison(proposition, jeux);
+            code.Comparaison(proposition);
 
         }
 
         [TestMethod]
         public void TestMethod3()
         {
-            JeuxLettre jeux = new JeuxLettre();
+            JeuxLettre jeux = new JeuxLettre(4,5);
             Combinaison proposition;
             ResultatCompare compare;
 
@@ -53,42 +53,42 @@ namespace TestUnitaire
             // LLLL : 1 noir 0 blancs
             proposition = jeux.CreateCombinaisonFromString("LLLL");
 
-            compare = code.Comparaison(proposition, jeux);
+            compare = code.Comparaison(proposition);
             Assert.AreEqual(compare.NbFicheNoir, 1);
             Assert.AreEqual(compare.NbFicheBlanche, 0);
 
             // LNNN : 0 noir 1 blancs
             proposition = jeux.CreateCombinaisonFromString("LNNN");
 
-            compare = code.Comparaison(proposition, jeux);
+            compare = code.Comparaison(proposition);
             Assert.AreEqual(compare.NbFicheNoir, 0);
             Assert.AreEqual(compare.NbFicheBlanche, 1);
 
             // RLRR : 2 noir 0 blancs
             proposition = jeux.CreateCombinaisonFromString("RLRR");
 
-            compare = code.Comparaison(proposition, jeux);
+            compare = code.Comparaison(proposition);
             Assert.AreEqual(compare.NbFicheNoir, 2);
             Assert.AreEqual(compare.NbFicheBlanche, 0);
 
             // RLVV : 2 noir 0 blancs
             proposition = jeux.CreateCombinaisonFromString("RLVV");
 
-            compare = code.Comparaison(proposition, jeux);
+            compare = code.Comparaison(proposition);
             Assert.AreEqual(compare.NbFicheNoir, 2);
             Assert.AreEqual(compare.NbFicheBlanche, 0);
 
             // RLBB : 2 noir 0 blancs
             proposition = jeux.CreateCombinaisonFromString("RLBB");
 
-            compare = code.Comparaison(proposition, jeux);
+            compare = code.Comparaison(proposition);
             Assert.AreEqual(compare.NbFicheNoir, 2);
             Assert.AreEqual(compare.NbFicheBlanche, 0);
 
             // RLJJ : 2 noir 0 blancs
             proposition = jeux.CreateCombinaisonFromString("RLJJ");
 
-            compare = code.Comparaison(proposition, jeux);
+            compare = code.Comparaison(proposition);
             Assert.AreEqual(compare.NbFicheNoir, 4);
             Assert.AreEqual(compare.NbFicheBlanche, 0);
         }
@@ -96,7 +96,7 @@ namespace TestUnitaire
         [TestMethod]
         public void CombinaisonAleatoire()
         {
-            JeuxLettre jl = new JeuxLettre();
+            JeuxLettre jl = new JeuxLettre(4,5);
 
             for (int i = 0; i < 10; i++)
                 Trace.WriteLine(jl.CombinaisonAleatoire());

@@ -75,7 +75,25 @@ namespace Bibliotheque
         /// <returns>Evaluation de la comparaison</returns>
         public ResultatCompare Comparaison(Combinaison proposition)
         {
-            ResultatCompare compare = null;
+
+            ResultatCompare compare = new ResultatCompare();
+            int[] tab= { 0, 1, 2, 3 } ;
+            
+            
+            foreach(int i in tab)
+            {
+                
+           
+            
+                if (this.Description()[i] == proposition.Description()[i])
+                {
+                    compare.NbFicheNoir++;
+                    Array.del(tab, i);
+
+                }
+               
+            
+             }
             
 
             return compare;
